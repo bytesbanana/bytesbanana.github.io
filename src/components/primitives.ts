@@ -1,7 +1,7 @@
 import { tv } from "tailwind-variants";
 
 export const title = tv({
-  base: "tracking-tight inline font-semibold",
+  base: "tracking-tight inline-flex font-semibold",
   variants: {
     color: {
       violet: "from-[#FF1CF7] to-[#b249f8]",
@@ -10,6 +10,7 @@ export const title = tv({
       cyan: "from-[#00b7fa] to-[#01cfea]",
       green: "from-[#6FEE8D] to-[#17c964]",
       pink: "from-[#FF72E1] to-[#F54C7A]",
+      orange: "from-[#FF705B] to-[#F54C7A]",
       foreground: "dark:from-[#FFFFFF] dark:to-[#4B4B4B]",
     },
     size: {
@@ -33,6 +34,7 @@ export const title = tv({
         "cyan",
         "green",
         "pink",
+        "orange",
         "foreground",
       ],
       class: "bg-clip-text text-transparent bg-gradient-to-b",
