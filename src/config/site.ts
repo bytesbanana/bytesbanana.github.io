@@ -5,46 +5,40 @@ export const siteConfig = {
   description: "Hi there! I'm Saharat Paynok",
   navItems: [
     {
-      label: "Home",
-      href: "#",
-    },
-    {
-      label: "Docs",
-      href: "#docs",
-    },
-    {
-      label: "Pricing",
-      href: "#pricing",
-    },
-    {
-      label: "Blog",
-      href: "#blog",
-    },
-    {
       label: "About",
       href: "#about",
+    },
+    {
+      label: "Experinces",
+      href: "#experinces",
+    },
+    {
+      label: "Educations",
+      href: "#about",
+    },
+    {
+      label: "Blogs",
+      href: "https://medium.com/@saharat.paynok",
+      target: "_blank",
     },
   ],
   navMenuItems: [
     {
-      label: "Home",
-      href: "/",
-    },
-    {
-      label: "Docs",
-      href: "/docs",
-    },
-    {
-      label: "Pricing",
-      href: "/pricing",
-    },
-    {
-      label: "Blog",
-      href: "/blog",
-    },
-    {
       label: "About",
-      href: "/about",
+      href: "#about",
+    },
+    {
+      label: "Experinces",
+      href: "#experinces",
+    },
+    {
+      label: "Educations",
+      href: "#about",
+    },
+    {
+      label: "Blogs",
+      href: "https://medium.com/@saharat.paynok",
+      target: "_blank",
     },
   ],
   links: {
