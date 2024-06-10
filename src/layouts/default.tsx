@@ -8,9 +8,9 @@ export default function DefaultLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="relative flex h-screen flex-col">
+    <div className="relative flex flex-col h-screen min-h-[110vh]">
       <Navbar />
-      <main className="container mx-auto max-w-7xl flex-grow px-6 pt-16">
+      <main className="container flex-grow px-6 pt-16 mx-auto max-w-7xl">
         {children}
       </main>
       {/* <footer className="flex items-center justify-center w-full py-3">

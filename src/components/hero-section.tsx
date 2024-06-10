@@ -10,12 +10,12 @@ export const HeroSection = ({
   return (
     <section
       className={cn(
-        "flex flex-col items-center justify-center gap-4 py-8 md:py-10 min-h-[calc(50dvh)]",
+        "py-24 md:py-36",
         className
       )}
       {...rest}
     >
-      <div className="flex flex-col items-center justify-center gap-2 text-center">
+      <div className="flex flex-col items-center gap-2 text-center">
         <motion.h1
           initial={{
             opacity: 0,
